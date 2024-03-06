@@ -1,12 +1,12 @@
 {
-  "name": "docs",
+  "name": "@skelclique-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages"    
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
